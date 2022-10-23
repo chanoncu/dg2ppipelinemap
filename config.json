@@ -18,6 +18,28 @@
       "useLogo": false
     }
   },
+  
+  //Optional. If not set, do not use proxy.
+  "httpProxy": {
+    //Optional. Default to false. If false all requests will not use proxy.
+    //If true, if the request match proxy rule, use proxy;
+    //         if the request doesn't match proxy rule but need proxy(cross domain, i.e.), use proxy url;
+    //         if the request neither match proxy rule nor the request doesn't need proxy, framework will check "alwaysUseProxy";
+    //            if alwaysUseProxy=true, the request uses proxy url, or the request doesn't use proxy.
+    "useProxy": true,
+
+    //Optional. Default to false. If true, all requests use proxy.
+    "alwaysUseProxy": false,
+
+    //Optional. If not empty, the url will be set to esriConfig.defaults.io.proxyUrl property.
+    "url": "",
+    //Optional. If not empty, these rules will be added to urlUtils proxyRule.
+    "rules": [{
+      "urlPrefix": "",
+      "proxyUrl": ""
+    }]
+  },
+  
   "portalUrl": "",
   "appId": "",
   "authorizedCrossOriginDomains": [
