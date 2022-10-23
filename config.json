@@ -17,10 +17,7 @@
       "useHeader": false,
       "useLogo": false
     }
-  },
-  
- 
-  
+  }, 
   "portalUrl": "https://worleyparsons.maps.arcgis.com/",
   "appId": "nCR2yyzz970QLb3z",
   "authorizedCrossOriginDomains": [
