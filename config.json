@@ -40,7 +40,7 @@
     }]
   },
   
-  "portalUrl": "",
+  "portalUrl": "https://worleyparsons.maps.arcgis.com/",
   "appId": "",
   "authorizedCrossOriginDomains": [
     "maps-ecr.jacobs.com",
